@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background-color: #1e3048;
+    color: white;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+.header_logo img{
+    width: 50px;
+}
+.header_nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.header_nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.header_nav a:hover{
+    color: #83de2a;
+}
+.header_cta{
+    background-color: #83de2a;
+    padding: 10px;
+    border-radius: 10px;
+}
+.header_cta:hover{
+    box-shadow: 0 10px 15px -3px rgba(131, 222, 42, 0.5), 0 4px 6px -2px rgba(131, 222, 42, 0.3);
+}
+.header_cta a{
+    text-decoration: none;
+    color: white;
+}
+/* hero section */
+section.hero{
+    background-image: url("/images/helmet\ shop.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    height: 85vh;
+}
+
+
+
+
+

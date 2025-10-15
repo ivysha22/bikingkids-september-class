@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #1e3048;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+header .header_logo img{
+    width: 50px;
+}
+header .header_nav{
+    display: flex;
+    gap: 20px;
+}
+header .header_nav a{
+    color: white;
+    text-decoration: none;
+}
+header .header_nav a:hover{
+    color: #83de2a;
+}
+header .header_cta a{
+    background-color: #83de2a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 900;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+/* HERO SECTION */
+.hero{
+    background-image: url("/images/helmet\ shop.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/* centers horizontally  */
+    align-items: center;/* centers vertically */
+    gap: 20px;
+    color: white;
+    position: relative; /* to position the ::before element absolutely within hero */
+}
+/* the glassmorphism overlay */
+.hero::before{/* the overlay is just on the hero section otherwise it will go on the whole page */
+    content: "";/* this creates a virtual box before the hero content */
+    position: absolute; /* relative to hero  */
+    inset: 0;/* top 0 bottom 0 left 0 right 0 */
+    backdrop-filter: blur(3px);/* the higher you the blurrier ir becomes */
+    background-color: rgba(5, 5, 5, 0.4) /* black with 40% opacity */
+}
+.hero h1,h4,a{
+    z-index: 1;
+} 
+.hero span{
+    z-index: 1;
+    color: #83de2a;
+}
+.hero a{
+    background-color: #83de2a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 900;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+
+
