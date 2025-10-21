@@ -72,5 +72,175 @@ header .header_cta a{
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
+/* ABOUT SECTION */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    gap: 4rem;
+    margin: auto;
+    width: 80%;
+ 
+}
+.about .aboutusparagraph{
+    width: 50%;
+}
+.about .aboutusimage {
+    width: 50%;
+}
+.about .aboutusparagraph p{
+    margin-top: 20px;
+}
+.about .aboutusparagraph span{
+    color: #83de2a;
+}
+.about .aboutusparagraph b{
+    font-weight:900;
+}
+.about .aboutusimage img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* BIKE EXPERIENCE SECTION */
+.bike_experience{
+    background-color: #e5e7eb5a;
+    padding: 50px;
+}
+.bike_experienceintro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.bike_experienceintro span{
+    color: #83de2a;
+}
+.bike_experienceflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 80%;
+    gap: 20px;
+}
+.bike_experienceflex .cards{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.bike_experienceflex .cards h3{
+    margin: 20px auto;
+}
+
+.bike_experienceflex .cards img{
+    border-radius: 50%;
+    background-color: rgb(220 252 231 );
+}
+
+/* EVENTS */
+.event{
+    background-color:#e5e7eb5a ;
+}
+.event .event_intro h1,p{
+   text-align: center;
+}
+.event_flex{
+    display: flex;
+    padding: 40px 30px;
+    gap: 30px;
+}
+.event_cards{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+}
+.event_cards .card1{
+    box-shadow: 0 4px 15px #83de2a; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+}
+.event_cards .card2{
+    box-shadow: 0 4px 15px #1e3048;
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+}
+.event_cards .card3{
+    box-shadow: 0 4px 15px #f97316;
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+}
+.event_cards .card4{
+    box-shadow: 0 4px 15px #e11d48;
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+}
+.event_image{
+    background-color: yellowgreen;
+    border-radius: 20px;
+}
+.event_image img{
+   padding: 30px;
+   width: 70%; 
+   margin-left: 40px;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THE BIKE EXPERIENCE SECTION 
+.bike_experience{
+    background-color: gainsboro;
+    padding: 4rem;
+}
+.bike_experienceintro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bike_experienceintro h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.bike_experience span{
+    margin-right:10px;
+    color: #83de2a;
+}
+.bike_experienceflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.bike_experienceflex .cards{
+    width: 20%;
+    background-color: white;
+}
+ */
