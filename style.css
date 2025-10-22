@@ -121,16 +121,23 @@ header .header_cta a{
 .bike_experienceflex{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     margin: 50px auto;
     width: 80%;
     gap: 20px;
 }
 .bike_experienceflex .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
     background-color: white;
     padding: 20px;
     border-radius: 20px;
     text-align: center;
+}
+.bike_experienceflex .cards:hover{
+    box-shadow: 0 4px 15px #070e0018;
 }
 .bike_experienceflex .cards h3{
     margin: 20px auto;
@@ -157,7 +164,7 @@ header .header_cta a{
     width: 70%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;/* means that the card will align with the tallest card */
     margin: auto;
     gap: 20px;
 }
@@ -186,18 +193,119 @@ header .header_cta a{
     width: 20%;
 }
 .event_image{
-    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220 252 231 );
     border-radius: 20px;
 }
 .event_image img{
-   padding: 30px;
+   padding: 20px;
    width: 70%; 
-   margin-left: 40px;
 }
-
-
-
-
+.shop .shop_intro h1,p{
+    text-align: center;
+    margin: 10px;
+}
+.shop_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    gap: 20px;
+}
+.shop_flex img{
+    object-fit: cover;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.shop_cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px #1310100e;
+    padding: 20px;
+    border-radius: 20px;
+}
+.shop_cards p{
+    color: rgb(22 163 74);
+    font-weight: 900;
+}
+.shop_cards a{
+    background-color: #83de2a;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.shop_cards a:hover{
+    background-color: #16a34a;
+}
+.contacts_intro h1,p{
+    text-align: center;
+    margin: 10px;
+}
+.contacts_flex{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: 50px auto;
+    gap: 20px;
+    width: 70%;
+}
+.registration{
+    box-shadow: 0 4px 15px #83de2a;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 12px;
+    
+}
+.registration i{
+    color: #83de2a;
+    margin-right: 10px;
+}
+.registration a{
+    background-color: #83de2a;
+    padding: 10px 80px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.registration a:hover{
+    background-color: #1e3048;
+    color: white;
+}
+.contactinfo{
+    box-shadow: 0 4px 15px #83de2a;
+    width: 50%;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contactinfo h2{
+    margin-bottom: 10px;
+}
+.info{
+    display: flex;
+    gap: 10px;
+}
+.info i{
+    color: #83de2a;
+}
+.info a{
+    text-decoration: none;
+    color: rgb(121, 213, 241);
+}
 
 
 
