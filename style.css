@@ -306,7 +306,91 @@ header .header_cta a{
     text-decoration: none;
     color: rgb(121, 213, 241);
 }
+footer{
+    background-color: #1e3048;
+    color: white;
+    padding: 30px 100px;
+}
+.footerA{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+.footer_logo img{
+    width: 50px;
+}
+.footer_logo h3{
+    color: #83de2a;
+}
+.footer_links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer_links a{
+    text-decoration: none;
+    color: white;
+}
+.socials{
+    margin-bottom: 90px;
+}
+.socials h2{
+    margin-bottom: 10px;
+}
+.socials_flex{
+    display: flex;
+    gap: 20px; 
+}
+.footerB hr{
+    margin-top: 40px;
+}
 
+@media (max-width: 768px){
+    .about{
+        flex-direction: column;
+        width: 90%;
+        padding: 20px;
+    }
+    .about h2, .about p{
+        text-align: center;
+    }
+    .about .aboutusparagraph, .about .aboutusimage{
+        width: 100%;
+    }
+    .bike_experienceflex{
+        flex-direction: column;
+        width: 90%;
+    }
+    .bike_experienceflex .cards{
+        width: 100%;
+    }
+    .event_flex{
+        flex-direction: column;
+    }
+    .event_cards{
+        flex-direction: column;
+        width: 100%;
+    }
+    .event_cards .card1, .event_cards .card2, .event_cards .card3, .event_cards .card4{
+        width: 100%;
+    }
+    .shop_flex{
+        flex-direction: column;
+        width: 90%;
+    }
+    .contacts_flex{
+        flex-direction: column;
+        width: 90%;
+    }
+    .registration, .contactinfo{
+        width: 100%;
+    }
+}
+@media (max-width:480px){
+    .event_cards .card1, .event_cards .card2, .event_cards .card3, .event_cards .card4{
+        width: 5    0%;
+    }
+}
 
 
 
